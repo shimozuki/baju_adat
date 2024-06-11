@@ -1,0 +1,57 @@
+[
+    {
+      "name": "Gendang",
+      "category": "Content Creator",
+      "reviews": 45,
+      "imageAsset": "assets/gendang.jpg"
+    },
+    {
+      "name": "Rebana Rea",
+      "category": "Adel",
+      "reviews": 30,
+      "imageAsset": "assets/rebanarea.jpg"
+    },
+    {
+      "name": "Rebana Ode",
+      "category": "Adel",
+      "reviews": 20,
+      "imageAsset": "assets/RebanaOde.jpeg"
+    },
+    {
+      "name": "Plompong",
+      "category": "Adel",
+      "reviews": 15,
+      "imageAsset": "assets/pelompng.png"
+    },
+    {
+      "name": "Santong Serek",
+      "category": "Adel",
+      "reviews": 10,
+      "imageAsset": "assets/Santongserek.JPG"
+    },
+    {
+      "name": "Salung",
+      "category": "Adel",
+      "reviews": 5,
+      "imageAsset": "assets/saluang.jpg"
+    },
+    {
+      "name": "Rantok",
+      "category": "Adel",
+      "reviews": 8,
+      "imageAsset": "assets/Rantok.jpg"
+    },
+    {
+      "name": "Gong",
+      "category": "Adel",
+      "reviews": 12,
+      "imageAsset": "assets/gong.jpg"
+    },
+    {
+      "name": "Srune",
+      "category": "Adel",
+      "reviews": 25,
+      "imageAsset": "assets/serune-kalee.jpg"
+    }
+  ]
+  
