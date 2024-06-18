@@ -27,7 +27,7 @@ class _SplashState extends State<Splash> {
               Container(
                 margin: EdgeInsets.fromLTRB(0, 0, 0, 19),
                 child: Text(
-                  'Ragam Baju Adat Sasambo',
+                  'Ragam Baju Adat Sumbawa',
                   style: GoogleFonts.poppins(
                     fontSize: 30,
                     fontWeight: FontWeight.w600,

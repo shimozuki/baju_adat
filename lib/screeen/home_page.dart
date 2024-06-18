@@ -27,6 +27,7 @@ class _HomeState extends State<Home> {
     musicController =
         MusicController('https://musik-tradisionalsumbawa.com/api/get-all');
     fetchData();
+    print(fetchData());
   }
 
   Future<void> fetchData() async {
@@ -69,7 +70,7 @@ class _HomeState extends State<Home> {
       child: Scaffold(
         appBar: AppBar(
           title: Text(
-            'Baju Adat Sasambo',
+            'Baju Adat Sumbawa',
             style: GoogleFonts.poppins(
               fontSize: 20,
               fontWeight: FontWeight.w500,
