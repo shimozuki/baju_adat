@@ -43,7 +43,7 @@ class _SplashState extends State<Splash> {
                   maxWidth: 300,
                 ),
                 child: Text(
-                  'Ragam Baju Adat Nusta Tenggara Barat',
+                  'Ragam Baju Adat Sumbawa',
                   style: GoogleFonts.poppins(
                     fontSize: 14,
                     fontWeight: FontWeight.w400,
