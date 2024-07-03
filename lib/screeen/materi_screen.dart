@@ -69,24 +69,10 @@ class _MateriState extends State<Materi> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Container(
-                          width: double.infinity,
-                          height: 285,
-                          child: YoutubePlayer(
-                            controller: YoutubePlayerController(
-                              initialVideoId: music.link,
-                              flags: YoutubePlayerFlags(
-                                autoPlay: false,
-                                mute: false,
-                              ),
-                            ),
-                            showVideoProgressIndicator: true,
-                            progressIndicatorColor: Color(0xFF9CCC65),
-                            progressColors: ProgressBarColors(
-                              playedColor: Color(0xFF9CCC65),
-                              handleColor: Color(0xFF9CCC65),
-                            ),
-                          ),
-                        ),
+                            width: double.infinity,
+                            height: 285,
+                            child: Image.network(
+                                'https://musik-tradisionalsumbawa.com/${music.image}')),
                         Container(
                           width: double.infinity,
                           height: 470,
@@ -97,7 +83,7 @@ class _MateriState extends State<Materi> {
                                 top: 9,
                                 child: Container(
                                   width: 244,
-                                  height: 45,
+                                  height: 80,
                                   child: Column(
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
@@ -131,7 +117,7 @@ class _MateriState extends State<Materi> {
                                 ),
                               ),
                               Positioned(
-                                top: 70,
+                                top: 75,
                                 left: 0,
                                 right: 0,
                                 child: Container(
@@ -160,7 +146,7 @@ class _MateriState extends State<Materi> {
                                 ),
                               ),
                               Positioned(
-                                top: 120,
+                                top: 130,
                                 left: 20,
                                 right: 25,
                                 child: Container(
