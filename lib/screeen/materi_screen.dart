@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:pakaian_adat/Controller/DetailMusic_Controller.dart';
 import 'package:pakaian_adat/model/music_model.dart';
-import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 
 class Materi extends StatefulWidget {
   final int id;
