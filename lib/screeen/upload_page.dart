@@ -403,7 +403,7 @@ class _UploadState extends State<Upload> {
                                       const EdgeInsets.fromLTRB(0, 0, 0, 5),
                                   child: TextFormField(
                                     decoration: const InputDecoration.collapsed(
-                                      hintText: "Nama Alat Music",
+                                      hintText: "Nama Baju Adat",
                                     ),
                                     validator: (value) {
                                       if (value == null ||
